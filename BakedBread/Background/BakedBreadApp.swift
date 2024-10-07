@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+let fm = FileManager.default
+@usableFromInline let documentsDirectory = fm.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("com.littlemangoez.bakedbread")
+
 @main
 struct BakedBreadApp: App {
     var body: some Scene {
