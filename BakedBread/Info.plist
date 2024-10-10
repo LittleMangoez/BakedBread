@@ -5,8 +5,6 @@
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
-			<key>CFBundleTypeIconFile</key>
-			<string>OvenIcon</string>
 			<key>CFBundleTypeName</key>
 			<string>Oven</string>
 			<key>CFBundleTypeRole</key>
@@ -31,8 +29,10 @@
 			<string>Oven File</string>
 			<key>UTTypeIcons</key>
 			<dict>
+				<key>UTTypeIconBackgroundName</key>
+				<string></string>
 				<key>UTTypeIconBadgeName</key>
-				<string>OvenIcon</string>
+				<string>DocumentIcon</string>
 			</dict>
 			<key>UTTypeIdentifier</key>
 			<string>com.littlemangoez.oven</string>
@@ -58,7 +58,8 @@
 			<key>UTTypeIcons</key>
 			<dict>
 				<key>UTTypeIconBadgeName</key>
-				<string>OvenIcon</string>
+				<string>DocumentIcon
+</string>
 			</dict>
 			<key>UTTypeIdentifier</key>
 			<string>com.littlemangoez.oven</string>
